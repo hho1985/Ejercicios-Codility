@@ -1,9 +1,0 @@
-def solution (A):
-    B= sorted (A)
-    count =1
-
-    for i in B:
-        if i == count:
-            count = count +1
-
-    return count
