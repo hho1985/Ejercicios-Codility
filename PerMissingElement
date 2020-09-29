@@ -1,0 +1,20 @@
+
+def function (A):
+    ord = sorted(A)
+    ultima= (ord[-1])
+    B= range(1,ultima+1)
+    faltantes=[]
+
+    for i in B:
+        if i not in A:
+            faltantes.append(i)
+
+    for i in faltantes:
+        print (i)
+    
+
+
+
+
+A=[1,2,5]
+function(A)
